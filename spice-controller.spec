@@ -86,9 +86,7 @@ Requires:	vala >= 2:0.14
 Obsoletes:	vala-spice-gtk < 0.7
 # vapi name is "spice-protocol", but it actually refers only to controller parts (controller_prot, foreign_menu_prot)
 Obsoletes:	vala-spice-protocol < 0.35
-%if "%{_rpmversion}" >= "4.6"
 BuildArch:	noarch
-%endif
 
 %description -n vala-spice-controller
 Vala API for SPICE controller protocol headers.
